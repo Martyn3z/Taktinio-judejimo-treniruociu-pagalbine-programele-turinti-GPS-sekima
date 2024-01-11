@@ -1,0 +1,9 @@
+<!-- res/layout/activity_request_permission.xml -->
+<TextView android:id="@+id/messageTextView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Prašome suteikti leidimą naudoti vietovę, kitaip programėlė neveiks tinkamai"
+    android:textSize="20pt"
+    android:textAlignment="center"
+    android:layout_gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

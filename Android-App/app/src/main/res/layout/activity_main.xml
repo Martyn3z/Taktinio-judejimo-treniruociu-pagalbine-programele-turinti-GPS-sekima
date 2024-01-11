@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".MainActivity">
+    <!-- res/layout/activity_main.xml -->
+    <EditText
+        android:id="@+id/slapyvardisField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Slapyvardis"
+        android:layout_marginBottom="16dp"
+        android:layout_centerHorizontal="true"
+        android:maxLength="35"/>
+    <EditText
+        android:id="@+id/specialybeField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Specialybė"
+        android:layout_below="@id/slapyvardisField"
+        android:layout_marginBottom="16dp"
+        android:layout_centerHorizontal="true"
+        android:maxLength="35"/>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/passwordInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:passwordToggleEnabled="true"
+        android:layout_below="@id/specialybeField"
+        app:passwordToggleDrawable="@drawable/ic_eye_toggle">
+    <EditText
+        android:id="@+id/sesijosKodasField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/sesijos_kodas"
+        android:layout_marginBottom="16dp"
+        android:layout_centerHorizontal="true"
+        android:inputType="textPassword"
+        android:importantForAutofill="no" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <Button
+        android:id="@+id/sukurtiPrisijungtiButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sukurti arba prisijungti"
+        android:layout_below="@id/passwordInputLayout"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:id="@+id/pagalbaIrDUKButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pagalba ir DUK"
+        android:layout_below="@id/sukurtiPrisijungtiButton"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:id="@+id/uzdarytiProgramaButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Uždaryti programėlę"
+        android:layout_below="@id/pagalbaIrDUKButton"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>

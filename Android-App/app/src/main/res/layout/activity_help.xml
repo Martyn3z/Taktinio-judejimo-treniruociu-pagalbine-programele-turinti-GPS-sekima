@@ -1,0 +1,15 @@
+<!-- res/layout/activity_help.xml -->
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/help_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:lineSpacingExtra="8dp"
+        android:padding="16dp"
+        android:text="Help and FAQs content goes here"/>
+</ScrollView>

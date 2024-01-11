@@ -1,0 +1,29 @@
+<!-- res/values/styles.xml -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Pagrindinė aplikacijos tema -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Prisitaikykite savo temą čia -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <!-- Pasirinktinė veiksmų juostos stilius -->
+    <style name="MyActionBarStyle" parent="Widget.AppCompat.ActionBar.Solid">
+
+    </style>
+
+    <!-- Pasirinktinė pavadinimo teksto stilius -->
+    <style name="MyTitleTextStyle">
+        <item name="android:textColor">@android:color/white</item>
+        <!-- Prisitaikykite kitus teksto atributus pagal poreikį -->
+    </style>
+
+    <!-- Pasirinktinė navigacinio mygtuko stilius (uždarymo mygtukas) -->
+    <style name="MyNavigationButtonStyle" parent="Widget.AppCompat.ActionButton.CloseMode">
+        <!-- Prisitaikykite uždarymo mygtuko išvaizdą pagal poreikį -->
+    </style>
+
+</resources>
